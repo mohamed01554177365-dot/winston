@@ -82,7 +82,6 @@ const players = [
     { name: "GEDO", position: "STRIKER", number: "#10", image: "player24.JPG", bio: "A forward player who works hard and fights for every opportunity." }
 ];
 
-
 // Show Player Information
 function showPlayer(index) {
 
@@ -90,7 +89,11 @@ function showPlayer(index) {
 
     if (!player) return;
 
-    document.getElementById("modalImage").src = player.image;
+    // Get image directly from player card
+    const cardImage = playerCards[index].querySelector("img");
+
+    document.getElementById("modalImage").src = cardImage.src;
+
     document.getElementById("modalName").textContent = player.name;
     document.getElementById("modalPosition").textContent = player.position;
     document.getElementById("modalNumber").textContent = player.number;
@@ -98,7 +101,6 @@ function showPlayer(index) {
 
     document.getElementById("playerModal").classList.add("active");
 }
-
 
 // Close Player Information
 function closePlayer() {
