@@ -47,7 +47,6 @@ const players = [
     { name: "AMR EL SWESSY", position: "LEFT BACK", number: "#3", image: "images/player10.jpg", bio: "A hard-working full back who defends and attacks down the left." },
     { name: "YASSIN FAROUK", position: "LEFT BACK", number: "#13", image: "images/player11.jpg", bio: "A hard-working full back who defends and attacks down the left." },
     { name: "EYAD EL FARANSY", position: "DEFENSIVE MIDFIELDER", number: "#17", image: "images/player12.jpg", bio: "A midfielder who protects the defense and wins the ball back." },
-    { name: "KHALED GINSH", position: "DEFENSIVE MIDFIELDER", number: "#81", image: "images/player13.jpg", bio: "A midfielder who protects the defense and wins the ball back." },
     { name: "MOHAMED ASHRAF", position: "CENTRAL MIDFIELDER", number: "#14", image: "images/player14.jpg", bio: "A talented midfielder who gives everything for the team. One team. One family." },
     { name: "AMR YASSER", position: "CENTRAL MIDFIELDER", number: "#20", image: "images/player15.jpg", bio: "A talented midfielder who gives everything for the team. One team. One family." },
     { name: "LOAY MOHSEN", position: "ATTACKING MIDFIELDER", number: "#8", image: "images/player16.jpg", bio: "A creative player who links midfield and attack." },
