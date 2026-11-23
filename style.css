@@ -70,7 +70,7 @@ header {
     padding: 70px 10%;
     background:
         linear-gradient(90deg, #061020 15%, rgba(7,20,38,0.65)),
-        url("images/stadium.jpg") center/cover no-repeat;
+        url("stadium.JPG") center/cover no-repeat;
     position: relative;
 }
 
@@ -195,6 +195,7 @@ section h2 span {
     overflow: hidden;
     border-bottom: 4px solid var(--red);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .player-card:hover {
@@ -310,7 +311,7 @@ footer p {
     }
 }
 
-/* Player Cards */
+/* PLAYER CARDS */
 .player-card {
     cursor: pointer;
     transition: 0.3s ease;
@@ -320,8 +321,7 @@ footer p {
     transform: translateY(-8px);
 }
 
-
-/* Player Information Modal */
+/* PLAYER INFORMATION MODAL */
 .player-modal {
     display: none;
     position: fixed;
@@ -339,8 +339,7 @@ footer p {
     display: flex;
 }
 
-
-/* Player Information Box */
+/* PLAYER INFORMATION BOX */
 .player-info {
     position: relative;
     background: #101b35;
@@ -375,8 +374,7 @@ footer p {
     color: #ddd;
 }
 
-
-/* Player Bio */
+/* PLAYER BIO */
 .player-bio {
     margin-top: 20px;
     padding: 15px;
@@ -389,8 +387,7 @@ footer p {
     margin-bottom: 10px;
 }
 
-
-/* Close Button */
+/* CLOSE BUTTON */
 .close-btn {
     position: absolute;
     top: 10px;
@@ -402,8 +399,7 @@ footer p {
     cursor: pointer;
 }
 
-
-/* Animation */
+/* ANIMATION */
 @keyframes popup {
     from {
         opacity: 0;
@@ -415,6 +411,8 @@ footer p {
         transform: scale(1);
     }
 }
+
+/* SMOKE */
 #smoke {
     position: fixed;
     inset: 0;
